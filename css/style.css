@@ -568,7 +568,22 @@ h3.my-profession {
 .portfolio .portfolio-item-inner .portfolio-img img {
   width: 100%;
   display: block;
-} /*contact*/
+}
+
+.portfolio-item .links {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.portfolio-item .links a {
+  text-decoration: none;
+  background-color: var(--skin-color);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+/*contact*/
 .contact-title {
   color: var(--skin-color);
   text-align: center;
