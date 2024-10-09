@@ -132,6 +132,13 @@ ul {
 }
 .btn:hover {
   transform: scale (1.05);
+  background:var(--skin-color);
+  color: #050801;
+  box-shadow: 0 0 5px var(--skin-color), 0 0 25px var(--skin-color)
+  0 0 50px var(--skin-color), 0 0 200px var(--skin-color);
+  -webkit-box-reflect: below 12px 
+  linear-gradient(transparent, #0005);
+  transform: translateY(-15px);
 }
 .shadow-dark {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
